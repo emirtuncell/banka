@@ -49,6 +49,11 @@
   transform: translateX(5px);
   box-shadow: 0 4px 8px rgba(0, 156, 196, 0.3); /* Yeni eklendi */
 }
+.yan_menu li.active {
+  background-color: var(--garanti-teal);
+  font-weight: 600;
+  border-left: 4px solid var(--garanti-light-teal);
+}
 
 .yan_menu li a {
   text-decoration: none;
